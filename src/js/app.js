@@ -1,11 +1,4 @@
-// TODO: write code here
+import Goblin from './Goblin';
 
-// comment this to pass build
-// const unusedVariable = 'variable';
-
-// for demonstration purpose only
-export default function demo(value) {
-  return value;
-}
-
-console.log('app.js included');
+const Game = new Goblin(document.querySelector('.goblin'));
+Game.change();
